@@ -3,7 +3,10 @@
 const credits = 0 // initial credits
 
 if (credits > 0) {
-    console.log("Let's play 🎰") // 
+    console.log("Let's play 🎰") // allowed to play credits higher than 0
 } else {
-    console.log("Sorry, you have no credits 😭") // 
+    console.log("Sorry, you have no credits 😭") // no credit = no play
 }
+
+// truthy
+// falsey
