@@ -22,10 +22,24 @@ if (true) {
 // false
 // 0
 // ""
-// null
-// undefined
+// null -> emptiness
+// undefined -> how JS signals emptiness
 // NaN
 // 
-// 
-// 
-// 
+// If we are setting up a livestreaming app we would use:
+
+// let currentViewers = null
+
+// currentViewers = ["jane", ""nick"] // this will only fire if set to an array
+
+// but if we lose the viewers
+
+// cuurentViewers = null
+
+// if (currentViewers) { --> will be false now
+//  notify the live streamer
+// console.log("we have viewers")
+// }
+
+
+// basically the default is truth unless its stated false via the former false commands
