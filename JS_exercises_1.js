@@ -19,4 +19,13 @@ if (true) {
 }
 
 // all we need to know is the falsy statements:
+// false
+// 0
+// ""
+// null
+// undefined
+// NaN
+// 
+// 
+// 
 // 
