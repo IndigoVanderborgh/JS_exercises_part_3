@@ -13,3 +13,13 @@
 
 // greetUser("Howdy") --> will return "howdy, undefined"
 
+// -------------------------------------------------------------- 
+// now with two parameters:
+
+// const welcomeEl = document.getElementById("welcome-el")
+
+// function greetUser(greeting, name) {
+//     welcomeEl.textContent = greeting + ", " + name + " 👋"
+// }
+
+// greetUser("Howdy", "James") --> returns "howdy, james 👋"
