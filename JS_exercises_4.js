@@ -22,4 +22,32 @@
 //     welcomeEl.textContent = greeting + ", " + name + " 👋"
 // }
 
-// greetUser("Howdy", "James") --> returns "howdy, james 👋"
+// greetUser("Howdy", "James") --> will return "Howdy, James 👋"
+
+// -------------------------------------------------------------- 
+// this is still clunky, so we really need to refactor it with template literals.
+
+// const welcomeEl = document.getElementById("welcome-el")
+
+// function greetUser(greeting, name) {
+//     // Rewrite the expression using template literals
+//     welcomeEl.textContent = `${greeting}, ${name} 👋`
+// }
+
+// greetUser("Howdy", "James")
+
+// will return with "Howdy, James 👋"
+
+// --------------------------------------------------------------
+
+// lets add a third parameter now:
+
+const welcomeEl = document.getElementById("welcome-el")
+
+// Add the ability to choose the emoji as well!
+
+function greetUser(greeting, name, emoji) {
+    welcomeEl.textContent = `${greeting}, ${name} ${emo}`
+}
+
+greetUser("Howdy", "James")
