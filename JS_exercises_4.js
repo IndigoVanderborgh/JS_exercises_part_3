@@ -40,14 +40,23 @@
 
 // --------------------------------------------------------------
 
-// lets add a third parameter now:
+// lets add a third parameter now with an emoji challenge:
 
+// const welcomeEl = document.getElementById("welcome-el")
+
+// // Add the ability to choose the emoji as well!
+
+// function greetUser(greeting, name, emoji) {
+//     welcomeEl.textContent = `${greeting}, ${name} ${emo}`
+// }
+
+// greetUser("Howdy", "James")
+
+// answer: 
 const welcomeEl = document.getElementById("welcome-el")
 
-// Add the ability to choose the emoji as well!
-
 function greetUser(greeting, name, emoji) {
-    welcomeEl.textContent = `${greeting}, ${name} ${emo}`
+    welcomeEl.textContent = `${greeting}, ${name} ${emoji}`
 }
 
-greetUser("Howdy", "James")
+greetUser("Howdy", "James", "👋")
