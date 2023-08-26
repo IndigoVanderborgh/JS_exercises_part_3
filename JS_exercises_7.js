@@ -10,7 +10,7 @@ let firstCard = getFirst([0,2,4])
 
 console.log(firstCard)
 
-// arrays in functiosn with parameters are shown above. the arr is creatively set, made by
+// arrays in functions with parameters are shown above. the arr is creatively set, made by
 // the user. on line 4, we run which index position we are looking for which is 0 = first
 // index. and in line 9 we create an argument using variable firstCard equal to the listed 
 // array containing the function as well. 
